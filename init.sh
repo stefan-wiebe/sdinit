@@ -5,7 +5,9 @@ alias getlora="wget --content-disposition -P /workspace/stable-diffusion-webui/m
 alias getembedding="wget --content-disposition -P /workspace/stable-diffusion-webui/embeddings"
 EOF
 
-source /root/.bashrc;
+alias getmodel="wget --content-disposition -P /workspace/stable-diffusion-webui/models/Stable-diffusion"
+alias getlora="wget --content-disposition -P /workspace/stable-diffusion-webui/models/Lora"
+alias getembedding="wget --content-disposition -P /workspace/stable-diffusion-webui/embeddings"
 
 # Download embeddings
 echo "Download embeddings";

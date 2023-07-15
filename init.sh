@@ -42,7 +42,7 @@ mv sd-wildcards/wildcards sd-dynamic-prompts;
 rm -rf sd-wildcards;
 
 ## Image Browser
-git clone --depth=1 https://github.com/yfszzx/stable-diffusion-webui-images-browser.git;
+git clone --depth=1 https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git
 
 ## Aesthetic Scorer
 git clone --depth=1 https://github.com/tsngo/stable-diffusion-webui-aesthetic-image-scorer.git;

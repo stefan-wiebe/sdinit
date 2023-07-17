@@ -22,11 +22,11 @@ getembedding https://civitai.com/api/download/models/77173 # UnrealisticDream 1.
 # Download models
 echo "Download models";
 
-getmodel https://civitai.com/api/download/models/109123 # DreamShaper 7
-getmodel https://civitai.com/api/download/models/110021 # DreamShaper 7 Inpainting
+# getmodel https://civitai.com/api/download/models/109123 # DreamShaper 7
+# getmodel https://civitai.com/api/download/models/110021 # DreamShaper 7 Inpainting
 
-getmodel https://civitai.com/api/download/models/108576 # AbsoluteReality 1.6
-getmodel https://civitai.com/api/download/models/109325 # AbsoluteReality 1.6 Inpainting
+# getmodel https://civitai.com/api/download/models/108576 # AbsoluteReality 1.6
+# getmodel https://civitai.com/api/download/models/109325 # AbsoluteReality 1.6 Inpainting
 
 # Download extensions
 echo "Downloading extensions";

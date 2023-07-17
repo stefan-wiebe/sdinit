@@ -5,9 +5,9 @@ alias getlora="wget --content-disposition -P /workspace/stable-diffusion-webui/m
 alias getembedding="wget --content-disposition -P /workspace/stable-diffusion-webui/embeddings"
 EOF
 
-alias getmodel="wget --content-disposition -P /workspace/stable-diffusion-webui/models/Stable-diffusion"
-alias getlora="wget --content-disposition -P /workspace/stable-diffusion-webui/models/Lora"
-alias getembedding="wget --content-disposition -P /workspace/stable-diffusion-webui/embeddings"
+alias getmodel="wget --content-disposition -P /stable-diffusion-webui/models/Stable-diffusion"
+alias getlora="wget --content-disposition -P /stable-diffusion-webui/models/Lora"
+alias getembedding="wget --content-disposition -P /stable-diffusion-webui/embeddings"
 
 # Download embeddings
 echo "Download embeddings";
@@ -31,7 +31,7 @@ echo "Download models";
 # Download extensions
 echo "Downloading extensions";
 
-cd /workspace/stable-diffusion-webui/extensions;
+cd /stable-diffusion-webui/extensions;
 
 ## Dynamic Prompting
 git clone --depth=1 https://github.com/adieyal/sd-dynamic-prompts.git;
